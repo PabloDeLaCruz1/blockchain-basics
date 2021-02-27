@@ -1,6 +1,6 @@
 import sha256 from 'crypto-js/sha256';
 
-let generateHash = (obj) => sha256(JSON.stringify(object));
+let generateHash = (obj) => sha256(JSON.stringify(obj));
 
 const data1 = "Blockchain Rock!";
 const dataObject = {
@@ -10,5 +10,5 @@ const dataObject = {
 };
 
 console.log(`SHA256 Hash: ${generateHash(data1)}`);
-console.log("************************************");
+console.log("************************* ***********");
 console.log(`SHA256 Hash: ${generateHash(dataObject)}`);
