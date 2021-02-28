@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "nodemon --exec babel-node index.js"
+    "start": "nodemon --exec babel-node App.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bluebird": "^3.7.2",
     "crypto-js": "^4.0.0"
   },
   "devDependencies": {
